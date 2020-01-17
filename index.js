@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+
+
 app.get('/getpodinfo', function (req, res) {
     const podInfo = {
         "MY_NODE_NAME": process.env.MY_NODE_NAME || '',
